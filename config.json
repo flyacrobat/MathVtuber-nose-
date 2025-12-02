@@ -1,0 +1,58 @@
+{
+    "paths": {
+        "mistral_model": "models",
+        "vtuber_assets": "assets",
+        "temp_dir": "temp",
+        "logs_dir": "logs"
+    },
+    "ui": {
+        "language": "es",
+        "font_size": 14,
+        "theme": "red",
+        "window_size": [
+            1400,
+            900
+        ],
+        "colors": {
+            "bg_primary": "#2c0a0a",
+            "bg_secondary": "#4a0a0a",
+            "text_primary": "#ffe6e6",
+            "text_secondary": "#ff9999",
+            "accent": "#8b0000",
+            "button": "#8b0000",
+            "button_text": "#ffe6e6"
+        }
+    },
+    "tts": {
+        "enabled": false,
+        "language": "es",
+        "voice_id": "",
+        "rate": 180,
+        "volume": 0.6,
+        "auto_speak_responses": true
+    },
+    "ai": {
+        "context_size": 2048,
+        "num_threads": 4,
+        "timeout": 30,
+        "temperature": 0.7,
+        "max_tokens": 512,
+        "model_type": "auto"
+    },
+    "visualization": {
+        "enabled": true,
+        "plot_style": "dark_background",
+        "figure_size": [
+            10,
+            6
+        ],
+        "line_color": "#00a896",
+        "save_plots": true
+    },
+    "performance": {
+        "lazy_loading": true,
+        "cache_responses": true,
+        "max_cache_size": 100,
+        "async_processing": true
+    }
+}

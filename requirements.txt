@@ -1,0 +1,26 @@
+# Dependencias principales
+tkinter-tooltip>=2.0.0
+Pillow>=10.0.0
+pyttsx3>=2.90
+numpy>=1.24.0
+matplotlib>=3.7.0
+sympy>=1.12
+
+# Modelos de IA (opcional - instalar según necesidad)
+llama-cpp-python>=0.2.0
+ctransformers>=0.2.0
+
+# Utilidades
+requests>=2.31.0
+
+# Dependencias específicas de Windows
+pywin32>=306; sys_platform == "win32"
+comtypes>=1.2.0; sys_platform == "win32"
+
+# Dependencias opcionales para funcionalidades avanzadas
+# scipy>=1.11.0  # Para cálculos científicos avanzados
+# pandas>=2.0.0  # Para manejo de datos
+# plotly>=5.15.0  # Para gráficos interactivos
+# cd "C:\Users\T14\OneDrive\Documentos\Prototipo diciembre" python -m PyInstaller main.py --onedir --windowed --add-data "assets;assets" --add-data "models;models"
+
+
